@@ -8,4 +8,4 @@ It's also my first time trying out the popular Tailwind CSS framework and it was
 Stack
 - Built with React JS and Tailwind CSS Framework.
 
-()[public/images/desktop-design.jpg]
+[](public/images/desktop-design.jpg)
