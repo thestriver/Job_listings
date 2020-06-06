@@ -2,7 +2,8 @@ import React from 'react';
 
 function Featured() {
     return (
-        <div className="max-w-full mx-32 mt-20 py-6 bg-white rounded-lg shadow-lg flex brc">
+        <div className="max-w-full mx-32 mt-20 py-6 bg-white rounded-lg shadow-lg flex">
+            <div class="bg-teal-600 rounded-lg w-1 h-auto -mt-6 -mb-6"></div>
             <div className="flex lg:w-6/12">
                 <div className="ml-6 mr-5">
                     <img class="h-24 w-24 rounded-full" src={"/images/photosnap.svg"} alt="" />
@@ -36,9 +37,14 @@ function Featured() {
                 JavaScript</span>
             </div>
 
+            
+                
+            
+
+
         </div>
 
-
+        
 
     )
 }
