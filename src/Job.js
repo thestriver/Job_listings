@@ -41,30 +41,24 @@ function Job(props){
                                     <span className="px-4 py-2 mr-4 inline-flex text-lg leading-5 font-semibold rounded-md bg-green-100 text-teal-500">
                                     {item.level}</span>
 
-                                    <span className="px-4 py-2 mr-4 inline-flex text-lg leading-5 font-semibold rounded-md bg-green-100 text-teal-500">
+
                                     {
-                                    item.languages[0] ? item.languages[0] : null
-                                    }</span>
+                                        item.languages.map(lang => {
+                                       return  <span key={lang.id} className="px-4 py-2 mr-4 inline-flex text-lg leading-5 font-semibold rounded-md bg-green-100 text-teal-500">{lang}</span>
+                                        
+                                        })
+                                    }
 
-                                    <span className="px-4 py-2 mr-4 inline-flex text-lg leading-5 font-semibold rounded-md bg-green-100 text-teal-500">
                                     {
-                                    item.languages[1] ? item.languages[1] : null
-                                    }</span>
+                                        item.tools.map(tool => {
+                                        return <span key={tool.id} className="px-4 py-2 mr-4 inline-flex text-lg leading-5 font-semibold rounded-md bg-green-100 text-teal-500">{tool}</span>
+                                        }
 
-                                    <span className="px-4 py-2 mr-4 inline-flex text-lg leading-5 font-semibold rounded-md bg-green-100 text-teal-500">
-                                    {
-                                    item.languages[2] ? item.languages[2] : null
-                                    }</span>
+                                        )
+                                    }
+                            
 
 
-                                    <span className="px-4 py-2 mr-4 inline-flex text-lg leading-5 font-semibold rounded-md bg-green-100 text-teal-500">
-                            {
-                            item.tools[0] ? item.tools[0] : null 
-                            }</span>
-                            <span className="px-4 py-2 mr-4 inline-flex text-lg leading-5 font-semibold rounded-md bg-green-100 text-teal-500">
-                            {
-                            item.tools[1] ? item.tools[1] : null 
-                            }</span>
                                     
                                 </div>
                             
