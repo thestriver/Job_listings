@@ -7,5 +7,6 @@ It's also my first time trying out the popular Tailwind CSS framework and it was
 
 Stack
 - Built with React JS and Tailwind CSS Framework.
+- Data was gotten from a pre-supplied json file. 
 
 ![Screenshot](public/images/desktop-design.jpg)
