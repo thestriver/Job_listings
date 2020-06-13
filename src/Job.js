@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+
 function Job(props){
     return (
         <div className="mb-40">
@@ -50,7 +52,7 @@ function Job(props){
 
                                     {
                                         item.tools.map(tool => {
-                                        return <span key={tool.id} className="px-4 py-2 mr-4 inline-flex text-lg leading-5 font-semibold rounded-md bg-green-100 text-teal-500">{tool}</span>
+                                        return <span key={tool.id} className="px-4 py-2 mr-4 mt-2 inline-flex text-lg leading-5 font-semibold rounded-md bg-green-100 text-teal-500">{tool}</span>
                                         }
 
                                         )
