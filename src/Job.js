@@ -9,7 +9,7 @@ function Job(props){
                 props.items.map(item => {
                     return <div key={item.id} className="max-w-full mx-32 my-6 py-6 bg-white rounded-lg shadow-lg flex">
                                 {
-                                    item.featured ? <div class="bg-teal-600 rounded-lg w-1 h-auto -mt-6 -mb-6"></div> : null
+                                    item.featured ? <div class="bg-teal-700 rounded-lg w-1 h-auto -mt-6 -mb-6"></div> : null
                                 }
                                 
                                 <div className="flex lg:w-6/12">
